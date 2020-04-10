@@ -1,6 +1,0 @@
-{
-    "javascript.suggest.enabled": false,
-    "typescript.suggest.enabled": false,
-    "typescript.suggest.includeAutomaticOptionalChainCompletions": false,
-    "javascript.suggest.includeAutomaticOptionalChainCompletions": false
-}
