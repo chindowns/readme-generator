@@ -1,26 +1,22 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "CLI README.md generator",
+  "description": "This file generates a README.md file from CLI (Command Line Interface).",
   "main": "index.js",
   "scripts": {
-    "test": "\"\""
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chindowns/readme-generator.git"
   },
   "keywords": [
-    "CLI",
-    "command",
-    "line",
     "readme"
   ],
   "author": "Michael Downs",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chindowns/readme-generator/issues"
   },
-  "homepage": "https://github.com/chindowns/readme-generator#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/chindowns/readme-generator#readme"
 }

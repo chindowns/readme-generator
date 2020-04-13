@@ -1,14 +1,24 @@
-const fs = require('fs');
+const FileIO = require("./fileIO.js");
 
-function GetProjectInfo() {}
+const fileIO = new FileIO;
 
-GetProjectInfo.prototype.read = function(file) {
-    return fs.readFileSync(file, "utf8");
-};
+const jsonInfo = JSON.parse(fileIO.read('./package.json'));
 
+let authorUser = jsonInfo.repository.url.split('/')[3];
 
-const getProjectInfo = GetProjectInfo();
+function MyProject() {
+    this.title = jsonInfo.name;
+    this.description = jsonInfo.description;
+    this.license = jsonInfo.license;
+    this.github = jsonInfo.repository.url;
+    this.author = jsonInfo.author;
+    this.authorImg = `https://github.com/${authorUser}.png`
+}
 
-let message = getProjectInfo.read("package.json");
+const myProject = new MyProject();
 
-console.log(message);
+module.export = {
+    MyProject: MyProject,
+    myProject: myProject,
+    Inquirer:Inquirer,
+}
