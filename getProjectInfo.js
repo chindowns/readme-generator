@@ -1,6 +1,9 @@
 const FileIO = require("./fileIO.js");
-let path = ()
-let str = FileIO.read('./.git/config');
+let gitPath = "../.git/config";
+
+let str;
+gitPath.read();
+console.log(gitPath);
 // Identify the URL string with the USERID and REPOSITORY name
 let iStart = str.indexOf('.com:')+5;
 let iEnd = str.indexOf('.git');
