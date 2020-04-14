@@ -22,5 +22,8 @@
     "url": "https://github.com/chindowns/readme-generator/issues"
   },
   "homepage": "https://github.com/chindowns/readme-generator#readme",
-  "dependencies": {}
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "stack": "^0.1.0"
+  }
 }
