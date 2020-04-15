@@ -1,10 +1,10 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "CLI README.md generator",
-  "main": "index.js",
+  "description": "Command Line Interface README.md generator",
+  "main": "readme-gen.js",
   "scripts": {
-    "test": "\"\""
+    "test": ""
   },
   "repository": {
     "type": "git",
