@@ -27,15 +27,13 @@ function init() {
         readmeGen.section(path, "Description", answers.description);
         }
 
+        readmeGen.tocHead(path);
+
         // Create Table of Contents based on answers that are not empty
-        let toc = [];
-        let count = 0;
-        Object.keys(answers).forEach (answer => {
+        Object.keys(answers).forEach(answer => {
             if (answer !== "") {
-                readmeGen.toc(path, answer, count);
-                count++;
+                readmeGen.toc(path, answer);
         }});
-        console.log(toc);
         
         if (answers.install !== "") {
             readmeGen.section(path, "Installation", answers.installation);

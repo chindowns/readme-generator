@@ -1,37 +1,24 @@
-# readme-generator <hr/>  
-    https://img.shields.io/date/1586822400
+# readme-generator
+![Site](https://img.shields.io/date/1586822400)   
+ 
 ## Description
-Command Line Interface README.md generator   
+Command Line Interface README.md generator.  The questions asked provide default answers gathered from your package.json and .git/config file.
 
-Table of Contents
+# Table of Contents
 ## [title](#title)
-Table of Contents
 ## [description](#description)
-Table of Contents
 ## [installation](#installation)
-Table of Contents
 ## [usage](#usage)
-Table of Contents
-## [license](#license)
-Table of Contents
-## [contribute](#contribute)
-Table of Contents
-## [tests](#tests)
-Table of Contents
 ## [author](#author)
-Table of Contents
-## [github](#github)
-Table of Contents
-## [githubUrl](#githubUrl)
-## Installation
-Install instructions here   
 
+## Installation
+Readme output looks like this.  Just copy readme-gen.js file and the ./lib directory into your package.  Install 'npm install inquirer'.  Next run 'node readme-gen.js' from your terminal.
+ 
 ## Usage
 readme-gen.js   
-
-## Licenses
-MIT   
-
+![Site](./lib/readme-generator.gif)
+ 
 ## Authors   
-![Site](https://github.com/chindowns.png)  Michael Downs
+### Michael Downs
+![Site](https://github.com/chindowns.png)  
 https://github.com/chindowns
